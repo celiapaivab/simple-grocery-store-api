@@ -2,8 +2,7 @@
 
 [![Postman](https://img.shields.io/badge/Postman-API%20Testing-orange)](https://www.postman.com/)
 [![Newman](https://img.shields.io/badge/Newman-5.3.0-blue)](https://www.npmjs.com/package/newman)
-[![GitHub Actions](https://github.com/celiapaiva/simple-grocery-store-api/actions/workflows/api-tests.yml/badge.svg)](https://github.com/celiapaiva/simple-grocery-store-api/actions/workflows/api-tests.yml)
-
+![API Tests](https://github.com/celiapaivab/simple-grocery-store-api/actions/workflows/api-tests.yml/badge.svg?branch=main)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/celia-bruno)
 
 
