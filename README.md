@@ -1,4 +1,4 @@
-# Simple Grocery Store API 🚀
+# Simple Grocery Store API
 
 [![Postman](https://img.shields.io/badge/Postman-API%20Testing-orange)](https://www.postman.com/)
 [![Newman](https://img.shields.io/badge/Newman-5.3.0-blue)](https://www.npmjs.com/package/newman)
@@ -8,12 +8,12 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 This project contains automated API tests for the **Simple Grocery Store API**. The tests are written as a **Postman collection** and can be executed locally using **Newman** or via **GitHub Actions** for CI/CD. The project also generates HTML reports for test execution results.
 
 ---
 
-## 🎯 Project Goals
+## Project Goals
 - Validate the functionality of the Simple Grocery Store API.
 - Automate testing of endpoints such as products, carts, and orders.
 - Ensure proper handling of authentication and invalid input scenarios.
@@ -21,7 +21,7 @@ This project contains automated API tests for the **Simple Grocery Store API**. 
 
 ---
 
-## 🔧 Technologies and Tools
+## Technologies and Tools
 - **[Node.js](https://nodejs.org/)** – runtime environment for executing JavaScript scripts.
 - **[Newman](https://www.npmjs.com/package/newman)** – command-line runner for Postman collections.
 - **[Postman](https://www.postman.com/)** – API client to create collections and environments.
@@ -30,7 +30,7 @@ This project contains automated API tests for the **Simple Grocery Store API**. 
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. Clone the repository:
 ```bash
@@ -53,7 +53,7 @@ newman run collections/simple_grocery.json \
 
 ---
 
-## 🧾 Results
+## Results
 - All endpoints for **happy path**, **invalid inputs**, and **authentication scenarios** are tested.
 - Test results are displayed in the CLI and saved as HTML reports.
 - Examples of tested scenarios:
@@ -64,7 +64,7 @@ newman run collections/simple_grocery.json \
 
 ---
 
-## 📚 What I Learned
+## What I Learned
 - How to structure API tests using **Postman collections** and environments.
 - How to run Postman tests locally with **Newman**.
 - How to dynamically inject environment variables (e.g., API tokens) in CI/CD pipelines.
@@ -73,14 +73,14 @@ newman run collections/simple_grocery.json \
 
 ---
 
-## 💡 Future Improvements
+## Future Improvements
 - Add **more detailed test coverage** for edge cases and concurrency.
 - Integrate **Slack or email notifications** for test failures.
 - Parameterize collections to test multiple environments (staging, production).
 
 ---
 
-## 📂 Project Files
+## Project Files
 
 ```text
 simple-grocery-store-api/
